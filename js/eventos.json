@@ -5,7 +5,7 @@
             "imagen": "Proyecto_JavaScript/fotos/harry.jpg",
             "tipo": "Musica",
             "fecha": "1/2/2023",
-            "precio": "Desde $2500",
+            "precio": 2500,
             "localidad": "Estadio Centenario",         
             "comprar": "Comprar"
         },
@@ -15,7 +15,7 @@
             "imagen": "Proyecto_JavaScript/fotos/cisne.jpg",
             "tipo": "Arte",
             "fecha": "26/6/2022",
-            "precio": "Desde $600",
+            "precio": 600,
             "localidad": "Audirorio Nacional del Sodre",      
             "comprar": "Comprar"      
         },
@@ -25,7 +25,7 @@
             "imagen": "Proyecto_JavaScript/fotos/uruVSbras.jpg",
             "tipo": "Deportes",
             "fecha": "20/8/2022",
-            "precio": "Desde $400",
+            "precio": 400,
             "localidad": "Antel Arena",
             "comprar": "Comprar"       
         },
@@ -35,7 +35,7 @@
             "imagen": "Proyecto_JavaScript/fotos/van gogh.jpg",
             "tipo": "Arte",
             "fecha": "5/7/2022",
-            "precio": "Desde $350",
+            "precio": 350,
             "localidad": "Sala del Museo",
             "comprar": "Comprar"            
         },
@@ -45,7 +45,7 @@
             "imagen": "Proyecto_JavaScript/fotos/ted.png",
             "tipo": "Social",
             "fecha": "14/9/2022",
-            "precio": "Desde $990",
+            "precio": 990,
             "localidad": "Sala Verdi",
             "comprar": "Comprar"            
         },
@@ -55,7 +55,7 @@
             "imagen": "Proyecto_JavaScript/fotos/wwe.jpg",
             "tipo": "Deportes",
             "fecha": "27/11/2023",
-            "precio": "Desde $1700",
+            "precio": 1700,
             "localidad": "Antel Arena",
             "comprar": "Comprar"      
         },
@@ -65,7 +65,7 @@
             "imagen": "Proyecto_JavaScript/fotos/jesus.jpg",
             "tipo": "Teatro",
             "fecha": "16/5/2022",
-            "precio": "Desde $550",
+            "precio": 550,
             "localidad": "Under Movie",
             "comprar": "Comprar"      
         },
@@ -75,7 +75,7 @@
             "imagen": "Proyecto_JavaScript/fotos/Chaqueno-palavecino.jpg",
             "tipo": "Musica",
             "fecha": "15/12/2022",
-            "precio": "Desde $1000",
+            "precio": 1000,
             "localidad": "Teatro de Verano",
             "comprar": "Comprar"            
         },
@@ -85,7 +85,7 @@
             "imagen": "Proyecto_JavaScript/fotos/glovers.jpg",
             "tipo": "Deportes" ,
             "fecha": "11/8/2022",
-            "precio": "Desde $890",
+            "precio": 890,
             "localidad": "Antel Arena",
             "comprar": "Comprar"            
         },
@@ -95,7 +95,7 @@
             "imagen": "Proyecto_JavaScript/fotos/teatro.jpg",
             "tipo": "Social",
             "fecha": "6/6/2022",
-            "precio": "Desde $150",
+            "precio": 150,
             "localidad": "Teatro de Verano",
             "comprar": "Comprar"            
         },
@@ -105,7 +105,7 @@
             "imagen": "Proyecto_JavaScript/fotos/fumando mate.jpg",
             "tipo": "Social",
             "fecha": "7/7/2022",
-            "precio": "Desde $350",
+            "precio": 350,
             "localidad": "Plaza Mateo",
             "comprar": "Comprar"            
         },
@@ -116,7 +116,7 @@
             "imagen": "Proyecto_JavaScript/fotos/flor.jpg",
             "tipo": "Teatro",
             "fecha": "25/9/2022",
-            "precio": "Desde $490",
+            "precio": 490,
             "localidad": "Under Movie",
             "comprar": "Comprar"           
         }
