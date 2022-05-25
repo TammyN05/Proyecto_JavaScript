@@ -2,99 +2,123 @@
 
         {
             "nombre": "Harry Styles",
-            "imagen":"/fotos/evento.jpg",
+            "imagen": "/fotos/harry.jpg",
             "tipo": "Musica",
             "fecha": "1/2/2023",
-            "localidad": "Estadio Centenario"            
+            "precio": "Desde $2500",
+            "localidad": "Estadio Centenario",         
+            "comprar": "Comprar"
         },
 
        {
             "nombre": "El Lago de los Cisnes",
-            "imagen":"/fotos/evento.jpg",
+            "imagen": "/fotos/cisne.jpg",
             "tipo": "Arte",
-            "fecha":"26/6/2022",
-            "localidad": "Audirorio Nacional del Sodre"            
+            "fecha": "26/6/2022",
+            "precio": "Desde $600",
+            "localidad": "Audirorio Nacional del Sodre",      
+            "comprar": "Comprar"      
         },
 
         {
-            "nombre":"FIBA 2023 Uruguay vs Brasil",
-            "imagen":"/fotos/evento.jpg",
+            "nombre": "FIBA 2023 Uruguay vs Brasil",
+            "imagen": "/fotos/uruVsbras.jpg",
             "tipo": "Deportes",
-            "fecha":"20/8/2022",
-            "localidad": "Antel Arena"            
+            "fecha": "20/8/2022",
+            "precio": "Desde $400",
+            "localidad": "Antel Arena",
+            "comprar": "Comprar"       
         },
 
         {
-            "nombre":"Exhibicion de Van Gogh",
-            "imagen":"/fotos/evento.jpg",
+            "nombre": "Exhibicion de Van Gogh",
+            "imagen": "/fotos/van gogh.jpg",
             "tipo": "Arte",
             "fecha": "5/7/2022",
-            "localidad": "Sala del Museo"            
+            "precio": "Desde $350",
+            "localidad": "Sala del Museo",
+            "comprar": "Comprar"            
         },
 
         {
             "nombre": "Charlas Ted",
-            "imagen":"/fotos/evento.jpg",
+            "imagen": "/fotos/ted.png",
             "tipo": "Social",
             "fecha": "14/9/2022",
-            "localidad": "Sala Verdi"            
+            "precio": "Desde $990",
+            "localidad": "Sala Verdi",
+            "comprar": "Comprar"            
         },
 
         {
-            "nombre":"WWE",
-            "imagen":"/fotos/evento.jpg",
+            "nombre": "WWE",
+            "imagen": "/fotos/wwe.jpg",
             "tipo": "Deportes",
-            "fecha":"27/11/2023",
-            "localidad": "Antel Arena"      
+            "fecha": "27/11/2023",
+            "precio": "Desde $1700",
+            "localidad": "Antel Arena",
+            "comprar": "Comprar"      
         },
 
         {
-            "nombre":"Jesucristo Superstar",
-            "imagen":"/fotos/evento.jpg",
+            "nombre": "Jesucristo Superstar",
+            "imagen": "/fotos/jesus.jpg",
             "tipo": "Teatro",
             "fecha": "16/5/2022",
-            "localidad": "Under Movie"      
+            "precio": "Desde $550",
+            "localidad": "Under Movie",
+            "comprar": "Comprar"      
         },
 
         {
             "nombre": "Chaqueño Palavecino",
-            "imagen":"/fotos/evento.jpg",
+            "imagen": "/fotos/Chaqueno-Palavecino.jpg",
             "tipo": "Musica",
-            "fecha":"15/12/2022",
-            "localidad": "Teatro de Verano"            
+            "fecha": "15/12/2022",
+            "precio": "Desde $1000",
+            "localidad": "Teatro de Verano",
+            "comprar": "Comprar"            
         },
 
         {
             "nombre": "Glovers trotters",
-            "imagen":"/fotos/evento.jpg",
+            "imagen": "/fotos/glovers.jpg",
             "tipo": "Deportes" ,
-            "fecha":"11/8/2022",
-            "localidad": "Antel Arena"            
+            "fecha": "11/8/2022",
+            "precio": "Desde $890",
+            "localidad": "Antel Arena",
+            "comprar": "Comprar"            
         },
 
        {
             "nombre": "Taller de actuación",
-            "imagen":"/fotos/evento.jpg",
+            "imagen": "/fotos/teatro.jpg",
             "tipo": "Social",
-            "fecha":"6/6/2022",
-            "localidad": "Teatro de Verano"            
+            "fecha": "6/6/2022",
+            "precio": "Desde $150",
+            "localidad": "Teatro de Verano",
+            "comprar": "Comprar"            
         },
 
        {
             "nombre": "Fumando Mate",
-            "imagen":"/fotos/evento.jpg",
+            "imagen": "/fotos/fumando mate.jpg",
             "tipo": "Social",
             "fecha": "7/7/2022",
-            "localidad": "Plaza Mateo"            
+            "precio": "Desde $350",
+            "localidad": "Plaza Mateo",
+            "comprar": "Comprar"            
         },
 
     
         {
             "nombre": "Flor Infante",
-            "imagen":"/fotos/evento.jpg",
+            "imagen": "/fotos/flor.jpg",
             "tipo": "Teatro",
             "fecha": "25/9/2022",
-            "localidad": "Under Movie"           
+            "precio": "Desde $490",
+            "localidad": "Under Movie",
+            "comprar": "Comprar"           
         }
 
 ]
