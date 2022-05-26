@@ -65,7 +65,7 @@ var tarjetas = [];
 
             ////VARIABLES/////
 
-var btnBuscar= document.getElementById("btnBuscar")
+//var btnBuscar= document.getElementById("btnBuscar")
 var btnLugar = document.getElementById("btnLugar");
 var btnPrecio = document.getElementById("btnPrecio");
 var btnTipo = document.getElementById("btnTipo");
@@ -73,7 +73,10 @@ var btnFecha = document.getElementById("btnFecha")
 
 
 
-//btnBuscar.addEventListener("click",ordenarFecha)
+document.getElementById("btnTipo").addEventListener("click",ordenarTipo);
+document.getElementById("btnFecha").addEventListener("click",ordenarFecha);
+document.getElementById("btnPrecio").addEventListener("click",ordenarPrecio);
+document.getElementById("btnLugar").addEventListener("click",ordenarLugar);
             /////FUNCIONES DE FILTRADO////
 
             ///POR LOCACION
@@ -83,30 +86,33 @@ function ordenarLugar(){
         .then(res=> res.json())
         .then(data =>{
             let listaFiltradaL = [];
-            for(i=0; i< data.length; i++){
-                if(data[i].localidad === "Estadio Centenario" && btnLugar.value=="Estadio Centenario"){
-                    listaFiltradaL.push(data[i]);
-                } else if (data[i].localidad === "Auditorio Nacional del Sodre" && btnLugar.value=="Auditorio Nacional del Sodre"){
-                    listaFiltradaL.push(data[i]);
-                }else if (data[i].localidad === "Plaza Mateo" && btnLugar.value=="Plaza Mateo"){
-                    listaFiltradaL.push(data[i]);   
-                }else if (data[i].localidad === "Teatro de Verano" && btnLugar.value=="Teatro de Verano"){
-                    listaFiltradaL.push(data[i]); 
-                }else if (data[i].localidad === "Sala del Museo" && btnLugar.value=="Sala del Museo"){
-                    listaFiltradaL.push(data[i]); 
-                }else if (data[i].localidad === "Sala Verdi" && btnLugar.value=="Sala Verdi"){
-                    listaFiltradaL.push(data[i]); 
-                }else if (data[i].localidad === "Under Movie" && btnLugar.value=="Under Movie"){
-                    listaFiltradaL.push(data[i]); 
-                }else if (data[i].localidad === "Antel Arena" && btnLugar.value=="Antel Arena"){
-                    listaFiltradaL.push(data[i]); 
-                  
-            }
+   
+
+                for(i=0; i< data.length; i++){
+                    if(data[i].localidad === "Estadio Centenario" && btnLugar.value=="Estadio Centenario"){
+                        listaFiltradaL.push(data[i]);
+                    } else if (data[i].localidad === "Auditorio Nacional del Sodre" && btnLugar.value=="Auditorio Nacional del Sodre"){
+                        listaFiltradaL.push(data[i]);
+                    }else if (data[i].localidad === "Plaza Mateo" && btnLugar.value=="Plaza Mateo"){
+                        listaFiltradaL.push(data[i]);   
+                    }else if (data[i].localidad === "Teatro de Verano" && btnLugar.value=="Teatro de Verano"){
+                        listaFiltradaL.push(data[i]); 
+                    }else if (data[i].localidad === "Sala del Museo" && btnLugar.value=="Sala del Museo"){
+                        listaFiltradaL.push(data[i]); 
+                    }else if (data[i].localidad === "Sala Verdi" && btnLugar.value=="Sala Verdi"){
+                        listaFiltradaL.push(data[i]); 
+                    }else if (data[i].localidad === "Under Movie" && btnLugar.value=="Under Movie"){
+                        listaFiltradaL.push(data[i]); 
+                    }else if (data[i].localidad === "Antel Arena" && btnLugar.value=="Antel Arena"){
+                        listaFiltradaL.push(data[i]);
+                    }
+                }
+      
+                mostrarEventos(listaFiltradaL) 
+                console.log(listaFiltradaL)
+            });
         }
-        console.log(listaFiltradaL)
-        mostrarEventos(listaFiltradaL) 
-    });
-}
+    
 
 //btnBuscar.addEventListener("click", function buscarAll() {});
     
@@ -146,11 +152,11 @@ function ordenarPrecio(){
         .then(data =>{
             let listaFiltradaP = [];
             for(i=0; i< data.length; i++){
-                if(data[i].precio >= 500 && btnPrecio.value=="hasta 500"){
+                if(data[i].precio <= 500 && btnPrecio.value=="hasta 500"){
                     listaFiltradaP.push(data[i]);
-                } else if (data[i].precio >= 1000 && btnPrecio.value=="hasta 1000"){
+                } else if (data[i].precio <= 1000 && btnPrecio.value=="hasta 1000"){
                     listaFiltradaP.push(data[i]);
-                }else if (data[i].precio >= 2000 && btnPrecio.value=="hasta 2000"){
+                }else if (data[i].precio <= 2000 && btnPrecio.value=="hasta 2000"){
                     listaFiltradaP.push(data[i]);   
                 }
                 else if (data[i].precio > 2000 && btnPrecio.value=="mas de 2000"){
@@ -161,7 +167,7 @@ function ordenarPrecio(){
         mostrarEventos(listaFiltradaP) 
     });
 };
-btnBuscar.addEventListener("click", ordenarPrecio)
+
 
          ////////POR FECHA///////
 
@@ -171,7 +177,7 @@ btnBuscar.addEventListener("click", ordenarPrecio)
                 .then(data =>{
                     let listaFiltradaF = [];
                  
-                     console.log(diffDays)
+                     console.log(diffDays);
                      console.log(timesDiff);
                     for(i=0; i< data.length; i++){
                         const nuevafecha = new Date();
@@ -187,15 +193,9 @@ btnBuscar.addEventListener("click", ordenarPrecio)
                             listaFiltradaF.push(data[i]);
                         }else if (diffDays  > 60 && btnFecha.value=="mas de 60"){
                             listaFiltradaF.push(data[i]);
-                        }   
-                     
-                     console.log(fecha.getTime());
-                     console.log(nuevafecha)
-                     console.log(timesDiff)
-                     console.log(diffDays)
-                     
+                    }   
                 
-                    }
+                }
                 
                 console.log(listaFiltradaF);
                 mostrarEventos(listaFiltradaF); 
@@ -203,4 +203,3 @@ btnBuscar.addEventListener("click", ordenarPrecio)
             });
            
         };
-        btnBuscar.addEventListener("click", ordenarFecha)

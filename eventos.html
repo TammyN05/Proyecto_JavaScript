@@ -19,64 +19,61 @@
   </div>
 
 <!----------------------------------------FILTRO PARA CATALOGO------------------------------------------------------->
-<div class="d-block text-center">
-        <div class="d-flex w-100 text-center">
-            
 
-            <div class="col-md-6 w-25">
-                <label for="inputState"class="form-label bg-light px-4"  style="border:2px solid red;">Tipo de evento</label>
-                <select id="btnTipo" class="form-select">
-                <option value="Musica">Musica</option>
-                <option value="Teatro">Teatro</option>
-                <option value="Deporte">Deporte</option>
-                <option value="Arte">Arte</option>
-                <option value="Social">Social</option>
-                </select>
-            </div>
-            <div class="col-12 w-25">
-                <label for="inputState"class="form-label bg-light px-4"  style="border:2px solid red;">Fecha</label>
-                <select id="btnFecha" class="form-select">
-                <option value="7">7 dias</option>
-                <option value="30">30 dias</option>
-                <option value="60">60 dias</option>
-                <option value="mas de 60">mas de 60 días</option>
-                
-                
-                </select>
-            </div>
-            <div class="col-12 w-25">
-                <label for="inputState"class="form-label bg-light px-4"  style="border:2px solid red;">Lugar</label>
-                <select id="btnLugar" class="form-select">
-                <option value="Estadio Centenario">Estadio Centenario</option>
-                <option value="Auditorio Nacional del Sodre">Audirorio Nacional del Sodre</option>
-                <option value="Antel Arena">Antel Arena</option>
-                <option value="Sala del Museo">Sala del Museo </option>
-                <option value="Sala Verdi">Sala Verdi</option>
-                <option value="Under Movie">Under Movie</option>
-                <option value="Plaza Mateo">Plaza Mateo</option>
-                <option value="Teatro de Verano">Teatro de Verano</option>
-                </select>
-                </div>
-            <div class="col-12 w-25">
-                <label for="inputState"class="form-label bg-light px-4"  style="border:2px solid rgb(255, 149, 0);">Precio</label>
-                <select id="btnPrecio" class="form-select">
-                    <option value="hasta 500">hasta 500</option>
-                    <option value="hasta 1000">hasta 1000</option>
-                    <option value="hasta 2000">hasta 2000</option>
-                    <option value="mas de 2000">mas de 2000</option>
-                    <option></option>
-
-                
-                </select>
-            </div>   
-        </div>
-
-    <div>
-        <div class="d-flex py-3" role="search" style="width: 300px; margin: auto;">
-            <button class="btn btn-outline-dark" id="btnBuscar">Buscar</button>
-          </div>
-    </div>
-   </div>
+    <div class="row g-4 w-100">
+        
+            <ul> 
+                <div id="filtro" class="text-center margin-auto row-center"><h2 class="mt-4" style="color: transparent;
+                    color: #f2863f;
+                         
+                         text-shadow: #474747 3px 5px 2px;
+                         color: #f79041;">Catálogo</h2>
+                   <form class="row g-3 text-dark">
+                    <div class="col-md-center w-25">
+                        <label for="inputState"class="form-label bg-light px-4"  style="border:2px solid rgb(255, 149, 0);">Tipo de evento</label>
+                        <select id="btnTipo" class="form-select">
+                        <option value="Musica">Musica</option>
+                        <option value="Teatro">Teatro</option>
+                        <option value="Deporte">Deporte</option>
+                        <option value="Arte">Arte</option>
+                        <option value="Social">Social</option>
+                        </select>
+                 
+                        <label for="inputState"class="form-label bg-light px-4"  style="border:2px solid rgb(255, 149, 0);">Fecha</label>
+                        <select id="btnFecha" class="form-select">
+                        <option value="7">7 dias</option>
+                        <option value="30">30 dias</option>
+                        <option value="60">60 dias</option>
+                        <option value="mas de 60">mas de 60 días</option>
+                        
+                        
+                        </select>
+                    </div>
+                    <div class="col-12 w-25">
+                        <label for="inputState"class="form-label bg-light px-4"  style="border:2px solid rgb(255, 149, 0);">Lugar</label>
+                        <select id="btnLugar" class="form-select">
+                        <option value="Estadio Centenario">Estadio Centenario</option>
+                        <option value="Auditorio Nacional del Sodre">Audirorio Nacional del Sodre</option>
+                        <option value="Antel Arena">Antel Arena</option>
+                        <option value="Sala del Museo">Sala del Museo </option>
+                        <option value="Sala Verdi">Sala Verdi</option>
+                        <option value="Under Movie">Under Movie</option>
+                        <option value="Plaza Mateo">Plaza Mateo</option>
+                        <option value="Teatro de Verano">Teatro de Verano</option>
+                        </select>
+                  
+                        <label for="inputState"class="form-label bg-light px-4"  style="border:2px solid rgb(255, 149, 0);">Precio</label>
+                        <select id="btnPrecio" class="form-select">
+                            <option value="hasta 500">hasta 500</option>
+                            <option value="hasta 1000">hasta 1000</option>
+                            <option value="hasta 2000">hasta 2000</option>
+                            <option value="mas de 2000">mas de 2000</option>
+                        </select>
+                    </div>
+                </form>
+        </ul>
+    
+</div>
 <!----------------------------------------CATALOGO------------------------------------------------------->
     <div class="container-fluid" id="espectaculos" style="padding:100px 20px;">
         <div class="row">
