@@ -5,7 +5,7 @@
 
             var eventos = []
             function traerApi(){
-                fetch("Proyecto_JavaScript/js/eventos.json")
+                fetch("js/eventos.json")
                     .then(res => res.json())
                     .then(data => {
                         console.log(data);
