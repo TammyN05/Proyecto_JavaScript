@@ -279,6 +279,8 @@ body {
 .formulario-tarjeta .btn-enviar {
 	border: none;
 	padding: 10px;
+	margin: 279px;
+	text-decoration: none;
 	font-size: 22px;
 	color: #fff;
 	background: #2364d2;

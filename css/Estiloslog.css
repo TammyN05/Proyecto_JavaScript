@@ -71,6 +71,11 @@ body {
     font-size: 1.7rem;
 }
 
+.crear-cuenta{
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+
 .iconos {
     width: 200px;
     display: flex;
@@ -115,7 +120,7 @@ body {
     color: white;
 }
 
-.formulario input[type="button"] {
+.button {
     width: 60%;
     margin: auto;
     border: solid thin white;

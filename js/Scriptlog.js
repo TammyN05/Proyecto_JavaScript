@@ -9,3 +9,19 @@ document.addEventListener('click', e => {
         $signUp.classList.toggle('active')
     }
 });
+
+const user = "User"
+const contra = "finde2022"
+
+function acceder() {
+  localStorage.setItem("Usuario", document.getElementById("usuario").value);
+  localStorage.setItem("Contraseña", document.getElementById("contraseña").value);
+  if ((localStorage.getItem("Usuario") == user) && (localStorage.getItem("Contraseña") == contra)) {
+    location.href="espectaculos.html";
+  } else {
+    alert("El usuario o la contraseña no son los correctos...Por favor intentelo de nuevo");
+  }
+};
+
+document.getElementById("mostrar").innerHTML = localStorage.getItem("Usuario");
+

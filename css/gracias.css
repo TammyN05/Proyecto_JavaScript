@@ -1,0 +1,22 @@
+.titulo{
+    font-size: 100px; 
+    color:#205375;
+}
+
+.titulo-h4{
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-color: #205375 !important;
+    color: #EFEFEF !important;
+    margin-top: 10px;
+    
+}
+
+.btn:hover{
+   background-color: #F66B0E !important;
+   transform: scale(1.1);
+   transition:0.3s;
+}
