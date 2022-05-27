@@ -1,6 +1,6 @@
 [
 
-        {
+        {   "id":"1",
             "nombre": "Harry Styles",
             "imagen": "Proyecto_JavaScript/fotos/harry.jpg",
             "tipo": "Musica",
@@ -16,7 +16,7 @@
             "condicion": "Condiciones especiales: Preventa con Master Recompensa del 09 al 15/5."
         },
 
-       {
+       {    "id":"2",
             "nombre": "El Lago de los Cisnes",
             "imagen": "Proyecto_JavaScript/fotos/cisne.jpg",
             "tipo": "Arte",
@@ -32,7 +32,7 @@
             "condicion": "Condiciones especiales: Preventa con Master Recompensa del 09 al 15/5."
         },
 
-        {
+        {   "id":"3",
             "nombre": "FIBA 2023 Uruguay vs Brasil",
             "imagen": "Proyecto_JavaScript/fotos/uruVSbras.jpg",
             "tipo": "Deportes",
@@ -48,7 +48,7 @@
             "condicion": "Condiciones especiales: Preventa con Master Recompensa del 09 al 15/5."     
         },
 
-        {
+        {   "id":"4",
             "nombre": "Exhibicion de Van Gogh",
             "imagen": "Proyecto_JavaScript/fotos/van gogh.jpg",
             "tipo": "Arte",

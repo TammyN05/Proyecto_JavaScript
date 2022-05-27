@@ -9,16 +9,18 @@ function traerinfo() {
 traerinfo();
 
 
+
 var traelainfo = []
 var todojunto = ``
 function info(traelainfo){
     for (i = 0; i < traelainfo.length; i++ ){
         jose = traelainfo[i]
-        todojunto += 
+        if (jose.id=="3") {
+            todojunto += 
         `<div id="eventos">
             <h1>
                 <small>
-                    <span>${jose.fecha}</span>
+                    <span class="fecha">${jose.fecha}</span>
                 </small>
                 <div class="titulo">
                     <span>${jose.nombre}</span>
@@ -26,34 +28,36 @@ function info(traelainfo){
             </h1>
             <hr>
             <small>
-                <span>Fecha: ${jose.fecha}</span>
+                <span class="fecha2">Fecha: ${jose.fecha}</span>
             </small><br>
             <small>
-                <span>${jose.localidad}</span>
+                <span class="lugar">${jose.localidad}</span>
             </small><br>
             <small>
-                <span>${jose.precio}</span>
+                <span class="precio">${jose.precio}</span>
             </small><br>
             <small>
-                <span>${jose.PagoWeb}</span>
+                <span class="pago">${jose.PagoWeb}</span>
             </small><br>
             <small>
-                <span>${jose.retiro}</span>
+                <span class="retiro">${jose.retiro}</span>
             </small><br>
             <small>
-                <span>${jose.Locales}</span>
+                <span class="locales">${jose.Locales}</span>
             </small><br>
             <small>
-                <span>${jose.Local}</span>
+                <span class="local">${jose.Local}</span>
             </small>
             <small><br>
-                <span>${jose.Local2}</span>
+                <span class="local 2">${jose.Local2}</span>
             </small><br>
             <small>
-                <span>${jose.condicion}</span>
-            </small>
-
+                <span class="condicion">${jose.condicion}</span>
+            </small><br>
+            <a href="https://www.google.com" class="btn">Comprar</a>
         </div>`
+        }
+        
     }
     document.getElementById("eventos").innerHTML = todojunto
 
