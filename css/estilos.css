@@ -128,7 +128,7 @@ header ul.is-sticky li a.active {
 
 /* start: hero section styles */
 #hero {
-    background: url('/Proyecto_JavaScript/fotos/hero.png') center center no-repeat;
+    background: url('/fotos/hero.png') center center no-repeat;
     background-size: cover;
     position: absolute;
     top: 0;

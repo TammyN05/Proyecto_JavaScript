@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+.titulo33 {
+    text-align: left;
+    color: rgb(65, 65, 65);
+    display: block;
+    font-size: 30px;
+    text-size-adjust: 100%;
+    width: 400px;
+    line-height: 26.4px;
+    padding-left: 10px;
+}
+
+.fecha {
+    text-align: left;
+    color: rgb(255, 169, 43);
+    display: inline;
+    height: auto;
+    line-height: 19.2px;
+    text-size-adjust: 100%;
+    font-size: 22px;
+    width: auto;
+    padding-left: 10px;
+}
+
+.fecha2 {
+    box-sizing: border-box;
+    color: rgb(65, 65, 65);
+    display: inline;
+    font-size: 13px;
+    font-weight: 600;
+    height: auto;
+    line-height: 19.5px;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: auto;
+    padding-left: 10px;
+}
+
+.lugar {
+    box-sizing: border-box;
+    color: rgb(65, 65, 65);
+    display: inline;
+    font-size: 13px;
+    font-weight: 600;
+    height: auto;
+    line-height: 19.5px;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: auto;
+    padding-left: 10px;
+}
+
+.precio {
+    box-sizing: border-box;
+    color: rgb(65, 65, 65);
+    display: inline;
+    font-size: 13px;
+    font-weight: 600;
+    height: auto;
+    line-height: 19.5px;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: auto;
+    padding-left: 10px;
+}
+
+.pago {
+    box-sizing: border-box;
+    color: rgb(65, 65, 65);
+    display: inline;
+    font-size: 13px;
+    font-weight: 600;
+    height: auto;
+    line-height: 19.5px;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: auto;
+    padding-left: 10px;
+}
+
+.retiro {
+    box-sizing: border-box;
+    color: rgb(65, 65, 65);
+    display: inline;
+    font-size: 13px;
+    font-weight: 600;
+    height: auto;
+    line-height: 19.5px;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: auto;
+    padding-left: 10px;
+}
+
+.locales {
+    box-sizing: border-box;
+    color: rgb(65, 65, 65);
+    display: inline;
+    font-size: 13px;
+    color: orange;
+    font-weight: 600;
+    height: auto;
+    line-height: 19.5px;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: auto;
+    padding-left: 10px;
+}
+
+.local2 {
+    box-sizing: border-box;
+    color: rgb(65, 65, 65);
+    display: inline;
+    font-size: 13px;
+    font-weight: 600;
+    height: auto;
+    line-height: 19.5px;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: auto;
+    padding-left: 10px;
+}
+
+.local {
+    box-sizing: border-box;
+    color: rgb(65, 65, 65);
+    display: inline;
+    font-size: 13px;
+    font-weight: 600;
+    height: auto;
+    line-height: 19.5px;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: auto;
+    padding-left: 10px;
+}
+
+.condicion {
+    box-sizing: border-box;
+    color: rgb(65, 65, 65);
+    display: inline;
+    font-size: 13px;
+    font-weight: 600;
+    height: auto;
+    line-height: 19.5px;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: auto;
+    padding-left: 10px;
+}
+
+.btn {
+    box-sizing: border-box;
+    color: rgb(255, 169, 43);
+    display: inline;
+    font-size: 23px;
+    font-weight: 600;
+    height: auto;
+    line-height: 19.5px;
+    text-align: right;
+    text-size-adjust: 100%;
+    width: auto;
+    padding-left: 170px;
+}
+
+.harry {
+    width: 300px;
+    position: absolute;
+    top: 820px;
+    left: 800px;
+}

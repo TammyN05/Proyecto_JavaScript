@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/Proyecto_JavaScript/fotos/fondolog.jpg);
+    background-image: url(/fotos/fondolog.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

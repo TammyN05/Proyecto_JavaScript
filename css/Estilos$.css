@@ -50,7 +50,7 @@ body {
 
 .tarjeta .delantera {
 	width: 100%;
-	background: url(/Proyecto_JavaScript/fotos/bg-tarjeta-01.jpg);
+	background: url(/fotos/bg-tarjeta-01.jpg);
 	background-size: cover;
 }
 
@@ -94,7 +94,7 @@ body {
 
 /* ---------- Tarjeta Trasera ----------*/
 .trasera {
-	background: url(/Proyecto_JavaScript/fotos/bg-tarjeta-01.jpg);
+	background: url(/fotos/bg-tarjeta-01.jpg);
 	background-size: cover;
 	position: absolute;
 	top: 0;

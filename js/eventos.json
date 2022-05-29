@@ -1,124 +1,196 @@
 [
 
-        {
-            "nombre": "Harry Styles",
-            "imagen": "fotos/harry.jpg",
-            "tipo": "Musica",
-            "fecha": "1/2/2023",
-            "precio": 2500,
-            "localidad": "Estadio Centenario",         
-            "comprar": "Comprar"
-        },
+    {   "id":"1",
+        "nombre": "Harry Styles",
+        "imagen": "Proyecto_JavaScript/fotos/harry.jpg",
+        "tipo": "Musica",
+        "fecha": "1/2/2023",
+        "precio": "Precio de las entradas: desde 2500",
+        "localidad": "Estadio Centenario",         
+        "comprar": "Comprar",
+        "PagoWeb": "Pago Web : Visa / MasterCard",
+        "retiro": "Retiro de entradas: Descargá la app y presentá tu ticket para ingresar al evento.",
+        "Locales": "Compra de entradas en locales:",
+        "Local": "Redpagos | Efectivo | Visa | Master ",
+        "Local2": "Abitab | Efectivo | Visa | Master",
+        "condicion": "Condiciones especiales: Preventa con Master Recompensa del 09 al 15/5."
+    },
 
-       {
-            "nombre": "El Lago de los Cisnes",
-            "imagen": "fotos/cisne.jpg",
-            "tipo": "Arte",
-            "fecha": "26/6/2022",
-            "precio": 600,
-            "localidad": "Audirorio Nacional del Sodre",      
-            "comprar": "Comprar"      
-        },
+   {    "id":"2",
+        "nombre": "El Lago de los Cisnes",
+        "imagen": "Proyecto_JavaScript/fotos/cisne.jpg",
+        "tipo": "Arte",
+        "fecha": "26/6/2022",
+        "precio": 600,
+        "localidad": "Audirorio Nacional del Sodre",      
+        "comprar": "Comprar",
+        "PagoWeb": "Pago Web : Visa / MasterCard",
+        "retiro": "Retiro de entradas: Descargá la app y presentá tu ticket para ingresar al evento.",
+        "Locales": "Compra de entradas en locales:",
+        "Local": "Redpagos | Efectivo | Visa | Master ",
+        "Local2": "Abitab | Efectivo | Visa | Master",
+        "condicion": "Condiciones especiales: Preventa con Master Recompensa del 09 al 15/5."
+    },
 
-        {
-            "nombre": "FIBA 2023 Uruguay vs Brasil",
-            "imagen": "fotos/uruVSbras.jpg",
-            "tipo": "Deportes",
-            "fecha": "20/8/2022",
-            "precio": 400,
-            "localidad": "Antel Arena",
-            "comprar": "Comprar"       
-        },
+    {   "id":"3",
+        "nombre": "FIBA 2023 Uruguay vs Brasil",
+        "imagen": "Proyecto_JavaScript/fotos/uruVSbras.jpg",
+        "tipo": "Deportes",
+        "fecha": "20/8/2022",
+        "precio": 400,
+        "localidad": "Antel Arena",
+        "comprar": "Comprar",
+        "PagoWeb": "Pago Web : Visa / MasterCard",
+        "retiro": "Retiro de entradas: Descargá la app y presentá tu ticket para ingresar al evento.",
+        "Locales": "Compra de entradas en locales:",
+        "Local": "Redpagos | Efectivo | Visa | Master ",
+        "Local2": "Abitab | Efectivo | Visa | Master",
+        "condicion": "Condiciones especiales: Preventa con Master Recompensa del 09 al 15/5."     
+    },
 
-        {
-            "nombre": "Exhibicion de Van Gogh",
-            "imagen": "fotos/van gogh.jpg",
-            "tipo": "Arte",
-            "fecha": "5/7/2022",
-            "precio": 350,
-            "localidad": "Sala del Museo",
-            "comprar": "Comprar"            
-        },
+    {   "id":"4",
+        "nombre": "Exhibicion de Van Gogh",
+        "imagen": "Proyecto_JavaScript/fotos/van gogh.jpg",
+        "tipo": "Arte",
+        "fecha": "5/7/2022",
+        "precio": 350,
+        "localidad": "Sala del Museo",
+        "comprar": "Comprar",
+        "PagoWeb": "Pago Web : Visa / MasterCard",
+        "retiro": "Retiro de entradas: Descargá la app y presentá tu ticket para ingresar al evento.",
+        "Locales": "Compra de entradas en locales:",
+        "Local": "Redpagos | Efectivo | Visa | Master ",
+        "Local2": "Abitab | Efectivo | Visa | Master",
+        "condicion": "Condiciones especiales: Preventa con Master Recompensa del 09 al 15/5."          
+    },
 
-        {
-            "nombre": "Charlas Ted",
-            "imagen": "fotos/ted.png",
-            "tipo": "Social",
-            "fecha": "14/9/2022",
-            "precio": 990,
-            "localidad": "Sala Verdi",
-            "comprar": "Comprar"            
-        },
+    {
+        "nombre": "Charlas Ted",
+        "imagen": "Proyecto_JavaScript/fotos/ted.png",
+        "tipo": "Social",
+        "fecha": "14/9/2022",
+        "precio": 990,
+        "localidad": "Sala Verdi",
+        "comprar": "Comprar",
+        "PagoWeb": "Pago Web : Visa / MasterCard",
+        "retiro": "Retiro de entradas: Descargá la app y presentá tu ticket para ingresar al evento.",
+        "Locales": "Compra de entradas en locales:",
+        "Local": "Redpagos | Efectivo | Visa | Master ",
+        "Local2": "Abitab | Efectivo | Visa | Master",
+        "condicion": "Condiciones especiales: Preventa con Master Recompensa del 09 al 15/5." 
+    },
 
-        {
-            "nombre": "WWE",
-            "imagen": "fotos/wwe.jpg",
-            "tipo": "Deportes",
-            "fecha": "27/11/2023",
-            "precio": 1700,
-            "localidad": "Antel Arena",
-            "comprar": "Comprar"      
-        },
+    {
+        "nombre": "WWE",
+        "imagen": "Proyecto_JavaScript/fotos/wwe.jpg",
+        "tipo": "Deportes",
+        "fecha": "27/11/2023",
+        "precio": 1700,
+        "localidad": "Antel Arena",
+        "comprar": "Comprar",
+        "PagoWeb": "Pago Web : Visa / MasterCard",
+        "retiro": "Retiro de entradas: Descargá la app y presentá tu ticket para ingresar al evento.",
+        "Locales": "Compra de entradas en locales:",
+        "Local": "Redpagos | Efectivo | Visa | Master ",
+        "Local2": "Abitab | Efectivo | Visa | Master",
+        "condicion": "Condiciones especiales: Preventa con Master Recompensa del 09 al 15/5."      
+    },
 
-        {
-            "nombre": "Jesucristo Superstar",
-            "imagen": "fotos/jesus.jpg",
-            "tipo": "Teatro",
-            "fecha": "16/5/2022",
-            "precio": 550,
-            "localidad": "Under Movie",
-            "comprar": "Comprar"      
-        },
+    {
+        "nombre": "Jesucristo Superstar",
+        "imagen": "Proyecto_JavaScript/fotos/jesus.jpg",
+        "tipo": "Teatro",
+        "fecha": "16/5/2022",
+        "precio": 550,
+        "localidad": "Under Movie",
+        "comprar": "Comprar",
+        "PagoWeb": "Pago Web : Visa / MasterCard",
+        "retiro": "Retiro de entradas: Descargá la app y presentá tu ticket para ingresar al evento.",
+        "Locales": "Compra de entradas en locales:",
+        "Local": "Redpagos | Efectivo | Visa | Master ",
+        "Local2": "Abitab | Efectivo | Visa | Master",
+        "condicion": "Condiciones especiales: Preventa con Master Recompensa del 09 al 15/5."      
+    },
 
-        {
-            "nombre": "Chaqueño Palavecino",
-            "imagen": "fotos/Chaqueno-palavecino.jpg",
-            "tipo": "Musica",
-            "fecha": "15/12/2022",
-            "precio": 1000,
-            "localidad": "Teatro de Verano",
-            "comprar": "Comprar"            
-        },
+    {
+        "nombre": "Chaqueño Palavecino",
+        "imagen": "Proyecto_JavaScript/fotos/Chaqueno-palavecino.jpg",
+        "tipo": "Musica",
+        "fecha": "15/12/2022",
+        "precio": 1000,
+        "localidad": "Teatro de Verano",
+        "comprar": "Comprar",
+        "PagoWeb": "Pago Web : Visa / MasterCard",
+        "retiro": "Retiro de entradas: Descargá la app y presentá tu ticket para ingresar al evento.",
+        "Locales": "Compra de entradas en locales:",
+        "Local": "Redpagos | Efectivo | Visa | Master ",
+        "Local2": "Abitab | Efectivo | Visa | Master",
+        "condicion": "Condiciones especiales: Preventa con Master Recompensa del 09 al 15/5."            
+    },
 
-        {
-            "nombre": "Glovers trotters",
-            "imagen": "fotos/glovers.jpg",
-            "tipo": "Deportes" ,
-            "fecha": "11/8/2022",
-            "precio": 890,
-            "localidad": "Antel Arena",
-            "comprar": "Comprar"            
-        },
+    {
+        "nombre": "Glovers trotters",
+        "imagen": "Proyecto_JavaScript/fotos/glovers.jpg",
+        "tipo": "Deportes" ,
+        "fecha": "11/8/2022",
+        "precio": 890,
+        "localidad": "Antel Arena",
+        "comprar": "Comprar",
+        "PagoWeb": "Pago Web : Visa / MasterCard",
+        "retiro": "Retiro de entradas: Descargá la app y presentá tu ticket para ingresar al evento.",
+        "Locales": "Compra de entradas en locales:",
+        "Local": "Redpagos | Efectivo | Visa | Master ",
+        "Local2": "Abitab | Efectivo | Visa | Master",
+        "condicion": "Condiciones especiales: Preventa con Master Recompensa del 09 al 15/5."            
+    },
 
-       {
-            "nombre": "Taller de actuación",
-            "imagen": "fotos/teatro.jpg",
-            "tipo": "Social",
-            "fecha": "6/6/2022",
-            "precio": 150,
-            "localidad": "Teatro de Verano",
-            "comprar": "Comprar"            
-        },
+   {
+        "nombre": "Taller de actuación",
+        "imagen": "Proyecto_JavaScript/fotos/teatro.jpg",
+        "tipo": "Social",
+        "fecha": "6/6/2022",
+        "precio": 150,
+        "localidad": "Teatro de Verano",
+        "comprar": "Comprar",
+        "PagoWeb": "Pago Web : Visa / MasterCard",
+        "retiro": "Retiro de entradas: Descargá la app y presentá tu ticket para ingresar al evento.",
+        "Locales": "Compra de entradas en locales:",
+        "Local": "Redpagos | Efectivo | Visa | Master ",
+        "Local2": "Abitab | Efectivo | Visa | Master",
+        "condicion": "Condiciones especiales: Preventa con Master Recompensa del 09 al 15/5."            
+    },
 
-       {
-            "nombre": "Fumando Mate",
-            "imagen": "fotos/fumando mate.jpg",
-            "tipo": "Social",
-            "fecha": "7/7/2022",
-            "precio": 350,
-            "localidad": "Plaza Mateo",
-            "comprar": "Comprar"            
-        },
+   {
+        "nombre": "Fumando Mate",
+        "imagen": "Proyecto_JavaScript/fotos/fumando mate.jpg",
+        "tipo": "Social",
+        "fecha": "7/7/2022",
+        "precio": 350,
+        "localidad": "Plaza Mateo",
+        "comprar": "Comprar",
+        "PagoWeb": "Pago Web : Visa / MasterCard",
+        "retiro": "Retiro de entradas: Descargá la app y presentá tu ticket para ingresar al evento.",
+        "Locales": "Compra de entradas en locales:",
+        "Local": "Redpagos | Efectivo | Visa | Master ",
+        "Local2": "Abitab | Efectivo | Visa | Master",
+        "condicion": "Condiciones especiales: Preventa con Master Recompensa del 09 al 15/5."            
+    },
 
-    
-        {
-            "nombre": "Flor Infante",
-            "imagen": "fotos/flor.jpg",
-            "tipo": "Teatro",
-            "fecha": "25/9/2022",
-            "precio": 490,
-            "localidad": "Under Movie",
-            "comprar": "Comprar"           
-        }
+
+    {
+        "nombre": "Flor Infante",
+        "imagen": "Proyecto_JavaScript/fotos/flor.jpg",
+        "tipo": "Teatro",
+        "fecha": "25/9/2022",
+        "precio": 490,
+        "localidad": "Under Movie",
+        "comprar": "Comprar",
+        "PagoWeb": "Pago Web : Visa / MasterCard", 
+        "retiro": "Retiro de entradas: Descargá la app y presentá tu ticket para ingresar al evento.",
+        "Locales": "Compra de entradas en locales:",
+        "Local": "Redpagos | Efectivo | Visa | Master ",
+        "Local2": "Abitab | Efectivo | Visa | Master",
+        "condicion": "Condiciones especiales: Preventa con Master Recompensa del 09 al 15/5."
+    }
 
 ]

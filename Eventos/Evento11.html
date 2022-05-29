@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FINDE</title>
-    <link rel="stylesheet" href="css/eventos.css">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="shortcute icon" href="fotos/logo.png">
+    <link rel="stylesheet" href="/css/eventos.css">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/Estilos+info.css">
+    <link rel="shortcute icon" href="/fotos/logo.png">
     <script src="https://kit.fontawesome.com/cef7889f92.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -24,10 +25,10 @@
     <div id="header-hero-container">
       <header>
           <div class="flex container">
-              <img src="fotos/logo.png" alt="" id="logo">
+              <img src="/fotos/logo.png" alt="" id="logo">
               <nav">
                   <span><i class="fa-solid fa-user" id="User"></i></span>
-                  <div id="mostrar" style="display: inline-block; margin-left: -30px;"></div>
+                  <div id="mostrar" style="display: inline-block; margin-left: -30px;">User</div>
               </nav>
           </div>
       </header>
@@ -35,7 +36,7 @@
       <section id="hero">
           <div class="fade"></div>
           <div class="hero-text">
-              <h1>¿Querés pasar un FINDE distinto?</h1>
+              <h1>Desliza para visualizar la Informacion de tu evento</h1>
               <p>No esperes más!</p>
           </div>
       </section>
@@ -132,81 +133,50 @@
 
     <!--------------------FIN DEL HEADER Y PORTADA--------------------->
 
-    <!------------------BUSQUEDA POR NOMBRE---------------->
-
-    <div class="d-flex py-3" role="search" style="width: 350px; margin: auto; margin-top: 100px;">
-    <input class="form-control me-2 bg-light" type="search" placeholder="Encuentra evento..." aria-label="Search" id="buscador" style="font-family: 'Poppins', sans-serif; font-weight: 400;">
-    <button class="btn btn-outline-dark mb-2" id="buscar" style="font-family: 'Poppins', sans-serif; font-weight: 400;">Buscar</button>
-     </div>
-
-    <!---------------FIN DE BUSQUEDA POR NOMBRE---------------->
-
-<!------------------------------FILTRO PARA CATALOGO---------------------------->
-
-    <div class="row g-4 w-100">
-        
-            <ul id="filtro" class="text-center margin-auto row-center"><h2 class="m-4" style="color: transparent; color: #f2863f; font-family: 'Poppins', sans-serif; font-weight: 500;">Catálogo</h2>
-                
-                   <form class="d-flex justify-content-center">
-                    <div class="col-md-center w-25 mt-4">
-                        <label for="inputState"class="form-label bg-light px-4"  style="border:2px solid rgb(255, 149, 0); font-family: 'Poppins', sans-serif; font-weight: 400;">Tipo de evento</label>
-                        <select id="btnTipo" class="form-select">
-                        <option value="Musica">Musica</option>
-                        <option value="Teatro">Teatro</option>
-                        <option value="Deporte">Deporte</option>
-                        <option value="Arte">Arte</option>
-                        <option value="Social">Social</option>
-                        </select>
-                 
-                        <label for="inputState"class="form-label bg-light px-4 mt-3"  style="border:2px solid rgb(255, 149, 0); font-family: 'Poppins', sans-serif; font-weight: 400;"">Fecha</label>
-                        <select id="btnFecha" class="form-select">
-                        <option value="7">7 dias</option>
-                        <option value="30">30 dias</option>
-                        <option value="60">60 dias</option>
-                        <option value="mas de 60">mas de 60 días</option>
-                        
-                        
-                        </select>
-                    </div>
-                    <div class="col-12 w-25 mt-4">
-                        <label for="inputState"class="form-label bg-light px-4 "  style="border:2px solid rgb(255, 149, 0); font-family: 'Poppins', sans-serif; font-weight: 400;"">Lugar</label>
-                        <select id="btnLugar" class="form-select">
-                        <option value="Estadio Centenario">Estadio Centenario</option>
-                        <option value="Auditorio Nacional del Sodre">Audirorio Nacional del Sodre</option>
-                        <option value="Antel Arena">Antel Arena</option>
-                        <option value="Sala del Museo">Sala del Museo </option>
-                        <option value="Sala Verdi">Sala Verdi</option>
-                        <option value="Under Movie">Under Movie</option>
-                        <option value="Plaza Mateo">Plaza Mateo</option>
-                        <option value="Teatro de Verano">Teatro de Verano</option>
-                        </select>
-                  
-                        <label for="inputState"class="form-label bg-light px-4 mt-3"  style="border:2px solid rgb(255, 149, 0); font-family: 'Poppins', sans-serif; font-weight: 400;"">Precio</label>
-                        <select id="btnPrecio" class="form-select">
-                            <option value="hasta 500">hasta 500</option>
-                            <option value="hasta 1000">hasta 1000</option>
-                            <option value="hasta 2000">hasta 2000</option>
-                            <option value="mas de 2000">mas de 2000</option>
-                        </select>
-                    </div>
-                </form>
-        </ul>
-        <a href="" id="btnLimpiar" class="text-center text-decoration-none" style="font-family: 'Poppins', sans-serif; font-weight: 400;"> Limpiar campos</a>
-    </div>
-<!------------------------------ FIN DE FILTRO PARA CATALOGO---------------------------->
-
-    <!------------------------CARTAS DE LOS EVENTOS---------------------------->
-    <div class="d-block text-center" style="margin-top: 5%;">
-        <h3 class="titulo-h3"> Explora nuestros eventos</h3>
-    </div>
-    <div class="container-fluid" id="espectaculos" style="padding:100px 20px;">
-        <div class="row">
-            <div id="eventos"></div>
-        </div>
+     <!-- Info -->
+     <div>
+        <h1>
+            <small>
+                <span class="fecha">7/7/2022</span>
+            </small>
+            <div class="titulo33">
+                <span>Fumando Mate</span>
+            </div>
+        </h1>
+        <hr>
+        <small>
+            <span class="fecha2">Fecha: 7/7/2022</span>
+        </small><br>
+        <small>
+            <span class="lugar">Lugar: Plaza Mateo</span>
+        </small><br>
+        <small>
+            <span class="precio">Precio de las entradas: desde 350</span>
+        </small><br>
+        <small>
+            <span class="pago">Pago Web: Visa / MasterCard</span>
+        </small><br>
+        <small>
+            <span class="retiro">Retiro de entradas: Descargá la app y presentá tu ticket para ingresar al evento.</span>
+        </small><br>
+        <small>
+            <span class="locales">Compra de entradas en locales: ↓</span>
+        </small><br>
+        <small>
+            <span class="local">Redpagos | Efectivo | Visa | Master</span>
+        </small>
+        <small><br>
+            <span class="local 2">Abitab | Efectivo | Visa | Master</span>
+        </small><br>
+        <small>
+            <span class="condicion">Condiciones especiales: Preventa con Master Recompensa del 09 al 15/5.</span>
+        </small><br>
+        <img src="/fotos/fumando mate.jpg" alt="" class="harry">
+        <a href="/Compra.html" class="btn" style="margin: 10px 50%;">Comprar</a>
     </div>
 
-    <!------------------------FIN DE CARTAS DE LOS EVENTOS---------------------------->
-    
+
+   
     <!--------------------BANNER------------------------>
     <section class="about" id="sobre-mi" style="background:rgb(236, 236, 236)">
         <div class="container py-5 " id="about">
