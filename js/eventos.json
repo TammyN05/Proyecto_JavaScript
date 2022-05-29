@@ -2,7 +2,7 @@
 
     {   "id":"1",
         "nombre": "Harry Styles",
-        "imagen": "Proyecto_JavaScript/fotos/harry.jpg",
+        "imagen": "/fotos/harry.jpg",
         "tipo": "Musica",
         "fecha": "1/2/2023",
         "precio": "Precio de las entradas: desde 2500",
@@ -18,7 +18,7 @@
 
    {    "id":"2",
         "nombre": "El Lago de los Cisnes",
-        "imagen": "Proyecto_JavaScript/fotos/cisne.jpg",
+        "imagen": "/fotos/cisne.jpg",
         "tipo": "Arte",
         "fecha": "26/6/2022",
         "precio": 600,
@@ -34,7 +34,7 @@
 
     {   "id":"3",
         "nombre": "FIBA 2023 Uruguay vs Brasil",
-        "imagen": "Proyecto_JavaScript/fotos/uruVSbras.jpg",
+        "imagen": "/fotos/uruVSbras.jpg",
         "tipo": "Deportes",
         "fecha": "20/8/2022",
         "precio": 400,
@@ -50,7 +50,7 @@
 
     {   "id":"4",
         "nombre": "Exhibicion de Van Gogh",
-        "imagen": "Proyecto_JavaScript/fotos/van gogh.jpg",
+        "imagen": "/fotos/van gogh.jpg",
         "tipo": "Arte",
         "fecha": "5/7/2022",
         "precio": 350,
@@ -66,7 +66,7 @@
 
     {
         "nombre": "Charlas Ted",
-        "imagen": "Proyecto_JavaScript/fotos/ted.png",
+        "imagen": "/fotos/ted.png",
         "tipo": "Social",
         "fecha": "14/9/2022",
         "precio": 990,
@@ -82,7 +82,7 @@
 
     {
         "nombre": "WWE",
-        "imagen": "Proyecto_JavaScript/fotos/wwe.jpg",
+        "imagen": "/fotos/wwe.jpg",
         "tipo": "Deportes",
         "fecha": "27/11/2023",
         "precio": 1700,
@@ -98,7 +98,7 @@
 
     {
         "nombre": "Jesucristo Superstar",
-        "imagen": "Proyecto_JavaScript/fotos/jesus.jpg",
+        "imagen": "/fotos/jesus.jpg",
         "tipo": "Teatro",
         "fecha": "16/5/2022",
         "precio": 550,
@@ -114,7 +114,7 @@
 
     {
         "nombre": "Chaqueño Palavecino",
-        "imagen": "Proyecto_JavaScript/fotos/Chaqueno-palavecino.jpg",
+        "imagen": "/fotos/Chaqueno-palavecino.jpg",
         "tipo": "Musica",
         "fecha": "15/12/2022",
         "precio": 1000,
@@ -130,7 +130,7 @@
 
     {
         "nombre": "Glovers trotters",
-        "imagen": "Proyecto_JavaScript/fotos/glovers.jpg",
+        "imagen": "/fotos/glovers.jpg",
         "tipo": "Deportes" ,
         "fecha": "11/8/2022",
         "precio": 890,
@@ -146,7 +146,7 @@
 
    {
         "nombre": "Taller de actuación",
-        "imagen": "Proyecto_JavaScript/fotos/teatro.jpg",
+        "imagen": "/fotos/teatro.jpg",
         "tipo": "Social",
         "fecha": "6/6/2022",
         "precio": 150,
@@ -162,7 +162,7 @@
 
    {
         "nombre": "Fumando Mate",
-        "imagen": "Proyecto_JavaScript/fotos/fumando mate.jpg",
+        "imagen": "/fotos/fumando mate.jpg",
         "tipo": "Social",
         "fecha": "7/7/2022",
         "precio": 350,
@@ -179,7 +179,7 @@
 
     {
         "nombre": "Flor Infante",
-        "imagen": "Proyecto_JavaScript/fotos/flor.jpg",
+        "imagen": "/fotos/flor.jpg",
         "tipo": "Teatro",
         "fecha": "25/9/2022",
         "precio": 490,
