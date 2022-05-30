@@ -35,18 +35,18 @@ p{
 }
 
 .card-title{
-    color: #EFEFEF;
+    color: #ffffff;
     font-weight: bold;
     font-size: 21px;
 }
 
 .card-text{
-    color: #EFEFEF;
+    color: #ffffff;
     font-size: 12px;
     margin-top: 20px;
 }
 .card-text1{
-    color: #EFEFEF;
+    color: #ffffff;
     font-size: 12px;
     margin-top: -15px;
 }
@@ -57,3 +57,4 @@ p{
    font-weight: 500;
    margin-bottom: -100px;
 }
+
