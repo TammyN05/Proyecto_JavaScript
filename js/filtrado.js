@@ -1,50 +1,52 @@
 var contenido 
 var tarjetas = [];
 
+//FETCH FUNCTION KELOKE
 
-            var eventos = []
-            function traerApi(){
-                fetch("js/eventos.json")
-                    .then(res => res.json())
-                    .then(data => {
-                        tarjetas=data;
-                        console.log(data);
-                        mostrarEventos(data);  
-                });
-            };
+var eventos = []
+function traerApi(){
+    fetch("js/eventos.json")
+        .then(res => res.json())
+        .then(data => {
+            console.log(data);
+            mostrarEvento(data);  
+    });
+};
+
+//LAS CARTAS ANASHI
+
+traerApi();
+function mostrarEvento(data){
+    contenido =`
+
+    <div class="espectaculos py-5 ">
+        <div class="container">
+            <div class="row">`;
+
+    for(let evento of data){
+        contenido +=
+   
+        `<div class="col col-md-4 col-lg-3 py-1">
+        <div class="card" style="width: 280px;">
+        <img src="${evento.imagen}" class="imagen">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">${evento.nombre}</h5>
+                    <p class="card-text"> Fecha: ${evento.fecha}</p>
+                    <p class="card-text1"> Tipo: ${evento.tipo}</p>
+                    <a href=${evento.compra_link}  class="btn " target="_blank"> Comprar </a>
+                </div>
+        </div>
+</div>`
+     
+    };
+    contenido += 
+    `       </div>
+        </div>
+    </div>` 
+     document.getElementById("evento").innerHTML = contenido;             
+}
 
 
-            traerApi();
-            function mostrarEventos(data){
-                contenido =`
-
-                <div class="espectaculos py-5 ">
-                    <div class="container">
-                        <div class="row">`;
-
-                for(let eventos of data){
-                    contenido +=
-
-                        `<div class="col col-md-4 col-lg-3 py-1">
-                                <div class="card" style="width: 280px;">
-                                <img src="${eventos.imagen}" class="imagen">
-                                        <div class="card-img-overlay">
-                                            <h5 class="card-title">${eventos.nombre}</h5>
-                                            <p class="card-text"> Fecha: ${eventos.fecha}</p>
-                                            <p class="card-text1"> Tipo: ${eventos.tipo}</p>
-                                            <a href="#" class="btn">${eventos.comprar}</a>
-                                        </div>
-                                </div>
-                        </div>`
-
-                };
-                contenido += 
-                `       </div>
-                    </div>
-                </div>` 
-                 document.getElementById("eventos").innerHTML = contenido;       
-
-            }
 
 
 
@@ -63,7 +65,7 @@ var tarjetas = [];
             let coincidencia = document.getElementById("buscador").value;
             let filtrada = tarjetas.filter(x => x.nombre.toLowerCase().indexOf(coincidencia.toLowerCase()) > -1);
             console.log(filtrada)
-            mostrarEventos(filtrada);
+            mostrarEvento(filtrada);
         }
 
 
@@ -95,7 +97,7 @@ function ordenarLugar(){
                 for(i=0; i< data.length; i++){
                     if(data[i].localidad === "Estadio Centenario" && btnLugar.value=="Estadio Centenario"){
                         listaFiltradaL.push(data[i]);
-                    } else if (data[i].localidad === "Auditorio Nacional del Sodre" && btnLugar.value=="Auditorio Nacional del Sodre"){
+                    } else if (data[i].localidad === "Audirorio Nacional del Sodre" && btnLugar.value=="Audirorio Nacional del Sodre"){
                         listaFiltradaL.push(data[i]);
                     }else if (data[i].localidad === "Plaza Mateo" && btnLugar.value=="Plaza Mateo"){
                         listaFiltradaL.push(data[i]);   
@@ -112,7 +114,7 @@ function ordenarLugar(){
                     }
                 }
       
-                mostrarEventos(listaFiltradaL) 
+                mostrarEvento(listaFiltradaL) 
                 console.log(listaFiltradaL)
             });
         }
@@ -136,14 +138,14 @@ function ordenarTipo(){
                     listaFiltradaT.push(data[i]);
                 }else if (data[i].tipo === "Arte" && btnTipo.value=="Arte"){
                     listaFiltradaT.push(data[i]);   
-                }else if (data[i].tipo === "Deporte" && btnTipo.value=="Deporte"){
+                }else if (data[i].tipo === "Deportes" && btnTipo.value=="Deportes"){
                     listaFiltradaT.push(data[i]); 
                 }else if (data[i].tipo === "Social" && btnTipo.value=="Social"){
                     listaFiltradaT.push(data[i]); 
             }
         }
         console.log(listaFiltradaT)
-        mostrarEventos(listaFiltradaT) 
+        mostrarEvento(listaFiltradaT) 
     });
 }
 
@@ -168,7 +170,7 @@ function ordenarPrecio(){
         }
         }
         console.log(listaFiltradaP)
-        mostrarEventos(listaFiltradaP) 
+        mostrarEvento(listaFiltradaP) 
     });
 };
 
@@ -202,7 +204,7 @@ function ordenarPrecio(){
                 }
                 
                 console.log(listaFiltradaF);
-                mostrarEventos(listaFiltradaF); 
+                mostrarEvento(listaFiltradaF); 
                 
             });
            
